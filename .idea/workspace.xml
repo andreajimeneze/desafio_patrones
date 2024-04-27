@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714090090013</updated>
-      <workItem from="1714090091095" duration="14667000" />
+      <workItem from="1714090091095" duration="27305000" />
     </task>
     <servers />
   </component>
@@ -79,16 +79,6 @@
           <url>file://$PROJECT_DIR$/src/Patrones.java</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PatronesAnidados.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PatronesAnidados.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
