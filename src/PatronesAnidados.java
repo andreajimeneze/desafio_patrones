@@ -4,24 +4,37 @@ public class PatronesAnidados {
     public static void main(String[] args) {
 
         int numPatron;
+        int continuar;
 
         do {
             System.out.println("Comience la selección de patrones. Seleccione un número entre 1 y 4:");
             numPatron = ingresarNumero();
-        } while (numPatron >= 4);
-            elegirPatron(numPatron);
+            if(numPatron <=4 ) {
+                elegirPatron(numPatron);
+            } else {
+                System.out.println("Ingrese un número dentro del rango");
+            }
+            System.out.println("Quiere elegir otro patrón? Elija 1 para Sí / 2 para No");
+            continuar = ingresarNumero();
+        } while (continuar == 1);
+            System.out.println("El programa ha finalizado");
+
         }
 
    public static void elegirPatron(int numPatron) {
    System.out.println("Ingrese un número");
     int num = ingresarNumero();
-               if(numPatron == 1) {
+        if(numPatron == 1) {
+            System.out.println("----- Patrón cuadrado -----");
             mostrarPatron1(num);
         } else if (numPatron == 2) {
+            System.out.println("----- Patrón Z -----");
             mostrarPatron2(num);
         } else if (numPatron == 3) {
+            System.out.println("----- Patrón X -----");
             mostrarPatron3(num);
         } else if (numPatron == 4) {
+            System.out.println("----- Patrón S al revés -----");
             mostrarPatron4(num);
         }
    }
